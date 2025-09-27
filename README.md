@@ -1,32 +1,19 @@
-# 🔐 Password Strength Checker
-
-A professional-grade password security analysis tool built with Python. Detects weak passwords, common patterns, and provides detailed security feedback.
+# 🔍 Network Port Scanner
+A professional Python tool for network security assessment and port scanning.
 
 ## Features
-- Blocks common weak passwords
-- Detects sequential numbers (12345)
-- Detects repeated characters (aaaa)
-- Detects keyboard patterns (qwerty)
-- Analyzes complexity requirements
-- Provides security score and detailed feedback
+- Port scanning with service detection (HTTP, SSH, FTP, etc.)
+- Customizable port ranges (1-65535)
+- Network security analysis
+- Ethical hacking and penetration testing tool
 
-## How to Run
+## Usage
 ```bash
-python3 password_checker.py
+python3 port_scanner.py
+# Example: Scan google.com
+python3 port_scanner.py
+# Enter: google.com, 80, 80
 ```
 
-## 📸 Demo
-
-### Weak Password Detection
-
-### Medium Strength Feedback
-
-### Perfect Score
-### Weak Password Detection  
-![Blocked Common Password](demo/weak-password.png)
-
-### Medium Strength Feedback
-![Medium Strength](demo/medium-password.png)
-
-### Perfect Score  
-![Excellent Password](demo/strong-password.png)
+## Legal Notice
+For educational and authorized security testing only. Always obtain proper permissions.
